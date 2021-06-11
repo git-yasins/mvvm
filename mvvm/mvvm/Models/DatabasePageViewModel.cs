@@ -10,5 +10,11 @@ namespace mvvm.Models
     {
         private RelayCommand _createDatabaseCommand;
         public RelayCommand CreateDatabaseCommand => _createDatabaseCommand ?? new RelayCommand(() => { });
+
+        private RelayCommand _insertDatabaseCommand;
+        public RelayCommand InsertDatabaseCommand => _insertDatabaseCommand ?? new RelayCommand(() => { });
+
+        private RelayCommand _getDatabaseCommand;
+        public RelayCommand GetDatabaseCommand => _getDatabaseCommand ?? new RelayCommand(() => { });
     }
 }
