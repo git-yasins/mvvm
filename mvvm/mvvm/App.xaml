@@ -4,6 +4,6 @@
              xmlns:vm="clr-namespace:mvvm.ViewModels;assembly=mvvm"
              x:Class="mvvm.App">
     <Application.Resources>
- <vm:ViewModelLocator x:key="ViewModelLocator"/>
+        <vm:ViewModelLocator x:Key="ViewModelLocator"/>
     </Application.Resources>
 </Application>
