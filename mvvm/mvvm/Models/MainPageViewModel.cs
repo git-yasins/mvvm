@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace mvvm.ViewModels
+namespace mvvm.Models
 {
     public class MainPageViewModel : ViewModelBase
     {

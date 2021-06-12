@@ -10,7 +10,7 @@ namespace mvvm
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new DatabasePage();
         }
 
         protected override void OnStart()
